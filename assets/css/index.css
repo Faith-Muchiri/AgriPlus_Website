@@ -137,4 +137,56 @@ c1{
   flex: 33.33%;
   margin: 60px;
 }
+/*style the footer*/
+.footer{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+}
+.Subscribe{
+  background-color: black;
+  color: white;
+
+}
+
+#text{
+  margin-top: 60px;
+  padding-top: 40px;
+  text-align: center;
+}
+span{
+  text-align: center;
+}
+#email{
+  background-color: white;
+}
+#submit{
+  background-color: #ED661F;
+}
+
+#desc{
+  display: flex;
+  justify-content: space-around;
+}
+.contact{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+.end{
+  flex: 25%;
+  margin: 20px;
+}
+
+.end ul{
+
+}
+#terms{
+  margin-top: 20px;
+    text-align: center;
+    }
+  
+
  
