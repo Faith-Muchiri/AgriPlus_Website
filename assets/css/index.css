@@ -66,3 +66,36 @@ img {
     background-color: #ED661F;
     padding: 10px;
   }
+  /* background image section */
+
+.main{
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/images/image 1 (1).png");
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+c1{
+  flex: 50%;
+}
+.customers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 3px 3px;
+}
+.customers p{
+  margin: 10px;
+}
+
+.communication{
+    display: flex;
+    justify-content: space-around;
+  }
+
+ 
