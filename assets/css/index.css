@@ -73,7 +73,10 @@ img {
 .main{
   width: 100%;
   height: auto;
-  background-image: url("/assets/images/image 1 (1).png");
+  background-image:  url("/assets/images/image 1 (1).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
 }
 
 .container{
