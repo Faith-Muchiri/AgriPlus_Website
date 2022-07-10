@@ -17,3 +17,52 @@ img {
   max-width: 100%;
   height: auto;
 }
+#Explore{
+  background-color:#ED661F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*Style the navigation bar*/
+.topnav{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  }
+
+  .links ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+ .links li{
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .links li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    text-decoration: underline;
+    text-decoration-color:#ED661F;
+  }
+
+  .btn{
+    background-color: #ED661F;
+    padding: 10px;
+  }
