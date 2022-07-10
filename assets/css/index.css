@@ -99,3 +99,42 @@ c1{
   }
 
  
+/*syle the newest items*/
+.categories{
+  text-align:center;
+}
+
+.popular{
+  display:flex;
+  justify-content: space-around;
+}
+.pop{
+  flex: 25%;
+  margin: 40px;
+  
+}
+.Newest{
+  display:flex;
+  justify-content: space-around;
+}
+.new{
+  flex: 25%;
+  margin: 40px;
+}
+.see{
+  float:right;
+}
+/*style the ratings*/
+.Ratings{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.checked {
+  color:#ED661F;
+}
+.person{
+  flex: 33.33%;
+  margin: 60px;
+}
+ 
