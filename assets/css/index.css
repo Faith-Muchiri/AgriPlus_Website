@@ -19,16 +19,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-#Explore{
-  background-color:#ED661F;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 
 /*Style the navigation bar*/
 .topnav{
@@ -64,19 +54,38 @@ img {
     text-decoration-color:#ED661F;
   }
 
-  .btn{
-    background-color: #ED661F;
-    padding: 10px;
+  #b1{
+    background-color:#ED661F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
   }
+  label{
+    font-weight: bold;
+  }
+  #Explore{
+    background-color:#ED661F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  
   /* background image section */
 
 .main{
   width: 100%;
-  height: auto;
   background-image:  url("/assets/images/image 1 (1).png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 600px;
 }
 
 .container{
@@ -84,8 +93,11 @@ img {
   justify-content: space-around;
 }
 
-c1{
+#c1{
   flex: 50%;
+}
+#c1 h1{
+  margin-top: 30px;
 }
 .customers{
   display: flex;
@@ -93,22 +105,39 @@ c1{
   justify-content: center;
   background-color: white;
   padding: 3px 3px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .customers p{
   margin: 10px;
+  margin-top: 20px;
 }
 
 .communication{
     display: flex;
     justify-content: space-around;
+    margin-right: 50px;
+    margin-left: 50px;
   }
+#exist h1{
+  margin-top: 20p;
+  margin-bottom: 30px;
 
+}
  
 /*syle the newest items*/
 .categories{
   text-align:center;
 }
-
+.categories h1{
+  margin-top: 20px;
+}
+.categories p{
+  margin-top: 20px;
+}
+#mp{
+  margin-left: 30px;
+}
 .popular{
   display:flex;
   justify-content: space-around;
@@ -117,6 +146,9 @@ c1{
   flex: 25%;
   margin: 40px;
   
+}
+#nitem{
+  margin-left: 30px;
 }
 .Newest{
   display:flex;
@@ -128,6 +160,17 @@ c1{
 }
 .see{
   float:right;
+  margin-bottom: 20px;
+}
+#sec{
+    display: block;
+    border-width: 8px;
+    background-color: grey;
+    width: 100%;
+  }
+#este{
+  margin-top: 30px;
+  margin-left: 30px;
 }
 /*style the ratings*/
 .Ratings{
@@ -147,6 +190,7 @@ c1{
   background-color: black;
   color: white;
   margin-top: 30px;
+  line-height: 2;
 }
 .Subscribe{
   background-color: black;
@@ -159,19 +203,36 @@ c1{
   padding-top: 40px;
   text-align: center;
 }
+#text form{ 
+  margin-top: 20px;
+  font-weight: bold;
+}
 span{
   text-align: center;
+ 
 }
 #email{
   background-color: white;
+  padding: 10px;
+  font-weight: bold;
+ 
 }
 #submit{
   background-color: #ED661F;
+  padding: 10px;
+  font-weight: bold;
 }
 
 #desc{
   display: flex;
   justify-content: space-around;
+}
+#sec2{
+  display: block;
+  border-width: 3px;
+  background-color: white;
+  width: 100%;
+  margin-top: 50px;
 }
 .contact{
   display: flex;
@@ -185,12 +246,10 @@ span{
   margin: 20px;
 }
 
-.end ul{
-
-}
 #terms{
   margin-top: 20px;
     text-align: center;
+    margin-bottom: 30px;
     }
   
 
