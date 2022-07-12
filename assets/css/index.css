@@ -85,10 +85,15 @@ img {
 
 .main{
   width: 100%;
-  background-image:  url("/assets/images/image 1 (1).png");
-  background-size: contain;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image:  url("../assets/images/image 1 (1).png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   height: 400px;
-  background-position: center center;
 }
 
 .container{
@@ -108,8 +113,13 @@ img {
   justify-content: center;
   background-color: white;
   padding: 3px 3px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 200px;
+  width: max-content;
+  height: 100px;
+  margin-left: 650px;
+  align-items: center;
+  
+  
 }
 .customers p{
   margin: 10px;
